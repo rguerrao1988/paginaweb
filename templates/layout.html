@@ -16,9 +16,8 @@
 </head>
 
 <body>
-    
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid ">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">SOS PYME</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="SOS PYME">
             <span class="navbar-toggler-icon"></span>
@@ -37,18 +36,11 @@
               
             </ul>
           </div>
-          
         </div>
       </nav>
     
 
     
-    <h4>
-        <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-    </h1>
+    {% block content %}
+    {% endblock %}
 </body>
